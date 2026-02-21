@@ -30,8 +30,6 @@ class ContenidorVirus:
                 return False
                 
     def canviar_password_mestre(self, vell_pass, nou_pass):
-       
-        pass
         vell_pass = input("Introdueix la contrasenya vella: ")
         if vell_pass == self.__password:
             nou_pass = input("Introdueix la nova contrasenya: ")
